@@ -6,7 +6,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import lombok.*;
 
-@Entity(name = "user")
+@Entity(name = "users")
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
