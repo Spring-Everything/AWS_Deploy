@@ -35,6 +35,9 @@ dependencies {
 
 	//로그인 보안 추가
 	implementation 'org.springframework.boot:spring-boot-starter-security'
+
+	// h2 콘솔 추가
+	runtimeOnly 'com.h2database:h2'
 }
 
 tasks.named('test') {
